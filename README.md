@@ -9,7 +9,7 @@ Let's create a class for creating contact lists. Each contact list should store 
 The contact list should have 3 instance methods:
 - `add_contact({})` should add a new contact to the list, while keeping the list sorted
 - `remove_contact('Alice')` should remove a contact from the list by name.
-- `find_shared_contacts(ContactList)` should accept another contact list as an argument, and then return a new list of dictionaries to indicate all the contacts that appear in both lists (exact same name and phone number).
+- `find_shared_contacts(ContactList)` should accept another contact list as an argument, and then return a new ContactList to indicate all the contacts that appear in both lists (exact same name and phone number).
 
 
 
