@@ -1,2 +1,2 @@
 class ContactList:
-
+    pass
