@@ -26,6 +26,10 @@ class ContactList:
             if contact['name'] == name:
                 self._contacts.remove(contact)
 
+    @get_contacts.setter
+    def set_contacts(self, contacts):
+        self._contacts = contacts
+
     def find_shared_contacts(self, contact_list):
         shared_contacts = []
         for contact_1,contact_2 in zip(self._contacts, contact_list._contacts):

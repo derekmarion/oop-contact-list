@@ -29,11 +29,11 @@ def test_name_getter_and_setter():
     my_list.set_name = 'New Name'
     assert my_list.get_name == 'New Name'
 
-# def test_contacts_getter_and_setter():
-#     contacts = [{'name': 'Alice', 'number': '123-4567'}]
-#     my_list = ContactList('My List', contacts)
-#     new_contacts = [{'name': 'Bob', 'number': '987-6543'}]
-#     my_list.set_contacts = new_contacts
-#     assert my_list.get_contacts == new_contacts
+def test_contacts_getter_and_setter():
+    contacts = [{'name': 'Alice', 'number': '123-4567'}]
+    my_list = ContactList('My List', contacts)
+    new_contacts = [{'name': 'Bob', 'number': '987-6543'}]
+    my_list.set_contacts = new_contacts
+    assert my_list.get_contacts == new_contacts
 
 # Add more test cases as needed
