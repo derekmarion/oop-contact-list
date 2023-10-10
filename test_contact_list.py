@@ -24,10 +24,10 @@ def test_find_shared_contacts():
     assert len(shared_contacts) == 1
     assert shared_contacts[0]['name'] == 'Alice'
 
-# def test_name_getter_and_setter():
-#     my_list = ContactList('My List', [])
-#     my_list.set_name = 'New Name'
-#     assert my_list.get_name == 'New Name'
+def test_name_getter_and_setter():
+    my_list = ContactList('My List', [])
+    my_list.set_name = 'New Name'
+    assert my_list.get_name == 'New Name'
 
 # def test_contacts_getter_and_setter():
 #     contacts = [{'name': 'Alice', 'number': '123-4567'}]

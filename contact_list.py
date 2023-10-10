@@ -4,6 +4,14 @@ class ContactList:
         self._contacts = contacts
 
     @property
+    def get_name(self):
+        return self._name
+    
+    @get_name.setter
+    def set_name(self, new_name):
+        self._name = new_name
+
+    @property
     def get_contacts(self):
         return self._contacts
     
